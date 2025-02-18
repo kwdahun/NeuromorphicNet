@@ -1,0 +1,9 @@
+# ninja log v5
+50	633	7604408980518514	NeuromorphicNet/CMakeFiles/NeuromorphicNet.dir/src/IFNeuron.cpp.obj	f7f357539c2ecbb4
+4	627	7604348053002422	NeuromorphicNet/CMakeFiles/NeuromorphicNet.dir/NeuromorphicNet.cpp.obj	e61cbb14bf5ef778
+1145	1316	7614044430931775	NeuromorphicNet/NeuromorphicNet.exe	692f903c1a4a2212
+25	53	0	D:/Package/NeuromorphicNet/out/build/x64-debug/CMakeFiles/cmake.verify_globs	256e7cb7071f5edf
+54	3123	7614957505472758	NeuromorphicNet/CMakeFiles/Main.dir/src/main.cpp.obj	eff5614448db5b57
+46	1145	7614044429668074	NeuromorphicNet/CMakeFiles/NeuromorphicNet.dir/src/NeuromorphicNet.cpp.obj	4954d7b2aec99d95
+41	242	7615923869511116	build.ninja	f2fe359c6deabc5f
+3123	3471	7614957508203550	NeuromorphicNet/Main.exe	9be08ee198bf11c6
