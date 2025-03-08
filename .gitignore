@@ -1,2 +1,19 @@
+# General gitignore files
 .git
+.gitignore
 .vs
+
+# CMake generated files
+CMakeFiles/
+*.stamp
+*.depend
+build/
+out/
+*/out
+/out
+cmake_install.cmake
+
+# Visual studio project files
+*.vcxproj
+*.vcxproj.filters
+*.vcxproj.user

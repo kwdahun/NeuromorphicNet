@@ -1,9 +1,7 @@
-﻿#include <iostream>
+#include <iostream>
 #include "IFNeuron.h"
 #include "MNISTSpikeGenerator.h"
 #include "NeuralNetGenerator.h"
-#include "Conv2d.h"
-#include "Matrix.h"
 
 using namespace std;
 
