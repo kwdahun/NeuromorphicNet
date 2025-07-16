@@ -2,6 +2,7 @@
 .git
 .gitignore
 .vs
+.claude
 
 # CMake generated files
 CMakeFiles/

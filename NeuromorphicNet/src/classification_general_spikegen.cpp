@@ -13,11 +13,11 @@ int main() {
         return 1;
     }
 
-    size_t SAMPLE_INDEX = 180;
+    size_t SAMPLE_INDEX = 224;
 
     auto spikes = generator.generateSpikes(generator.getImages()[SAMPLE_INDEX]);
     std::cout << "Image Label: " << static_cast<int>(generator.getLabels()[SAMPLE_INDEX]) << "\n\n";
-    auto [input_neurons, all_neurons] = NeuralNetGenerator::generate(MNIST_DATA_DIR "/mnist_classifier.json", 0.6f, 0.95f);
+    auto [input_neurons, all_neurons] = NeuralNetGenerator::generate(MNIST_DATA_DIR "/mnist_classifier.json", 0.7f, 0.5f);
 
     // Output neurons are the last 10 neurons
     vector<IFNeuron*> output_neurons(all_neurons.end() - 10, all_neurons.end());
